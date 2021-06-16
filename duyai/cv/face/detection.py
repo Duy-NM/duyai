@@ -90,7 +90,6 @@ def mtcnn_detect(frame, align=False):
             }
         }
         results.append(result)
-        [, , , ]
         boxes.append(result['box'])
 
     return boxes, results

@@ -4,7 +4,7 @@ import os
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 PACKAGE_NAME = 'duyai'
 AUTHOR = 'Duy Nguyen Manh'
 AUTHOR_EMAIL = 'manhduy160396@email.com'
@@ -16,8 +16,6 @@ LONG_DESCRIPTION = (HERE / "README.md").read_text()
 LONG_DESC_TYPE = "text/markdown"
 
 INSTALL_REQUIRES = [
-      'tensorflow-gpu>=2.0.0',
-      'keras',
       'opencv-python',
       'gdown'
 ]

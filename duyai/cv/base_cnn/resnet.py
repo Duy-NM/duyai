@@ -128,3 +128,7 @@ def ResNet101():
 def ResNet152():
     return ResNet(Bottleneck, [3,8,36,3])
 
+if __name__ == "__main__":
+    model = ResNet18()
+    model.build((1,416,416,3))
+    model.summary()
